@@ -10,8 +10,8 @@ public class Test0 {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
-		driver.findElement(By.id("email")).sendKeys("suraj.kumar11157@yahoo.com");
-		driver.findElement(By.id("pass")).sendKeys("sjkr2311@");
+		driver.findElement(By.id("email")).sendKeys("admin");
+		driver.findElement(By.id("pass")).sendKeys("admin");
 		driver.findElement(By.name("login")).click();
 		Thread.sleep(9000);
 		driver.close();
