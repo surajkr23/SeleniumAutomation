@@ -12,7 +12,7 @@ driver.manage().window().maximize();
 driver.get("https://accounts.google.com/");
 driver.findElement(By.id("identifierId")).sendKeys("surajkr2311");
 driver.findElement(By.xpath("//span[text()='Next']")).click();
-driver.findElement(By.name("password")).sendKeys("aspie23!");
+driver.findElement(By.name("password")).sendKeys("*****");
 driver.findElement(By.xpath("//span[text()='Next']")).click();
 String title = driver.getTitle();
 System.out.println(title);
